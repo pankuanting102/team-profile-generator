@@ -63,7 +63,7 @@ function renderRoster(){
 
         {
             type: "input",
-            name:"managerOfiiceNumber",
+            name:"managerOfficeNumber",
             message: "What's your office phone number?",
             validate: answer => {
                 const validated = answer.match(
