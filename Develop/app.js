@@ -183,7 +183,7 @@ function renderRoster(){
     
     
         ]).then(answers => {
-            const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.enginnerEmail, answers.engineerGithub);
+            const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.engineerEmail, answers.engineerGithub);
             teamMembers.push(engineer);
             idArray.push(answers.engineerId);
             createTeam();
